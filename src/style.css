@@ -101,8 +101,12 @@ nav{
     padding: 64px 68px 64px 109px;
     color: white;
 }
+.text-banner-info-tittle{
+    width: 524px;
+}
 .text-banner-info-text{
     margin: 20px 0 20px 0;
+    width: 506px;
 }
 button{
     background-color: #ff4b32;
@@ -110,7 +114,7 @@ button{
     border-radius: 5px;
     margin-top: 15px;
     font-size: 20px;
-    padding: 10px 20px;
+    padding: 16px 35px;
 }
 
 
