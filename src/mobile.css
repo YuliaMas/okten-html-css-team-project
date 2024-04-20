@@ -1,6 +1,18 @@
 @media screen and (max-width: 559px) {
     /* Patricia */
-
+    .header{
+        width: 100vw;
+    }
+    .text-banner-info-text{
+        margin: 20px 0 20px 0;
+        width: 506px;
+        color: #FFF;
+        font-family: "Open Sans", sans-serif;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 160%; /* 32px */
+    }
 
     /* Vlad */
 
