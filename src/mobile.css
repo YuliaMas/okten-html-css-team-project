@@ -1,17 +1,55 @@
 @media screen and (max-width: 559px) {
-    /* Patricia */
+/* Patricia */
+    header {
+        background-image: url("../assets/Patricia/Rectangle60.png");
+    }
+    .banner-info {
+        display: contents;
+    }
+    .banner-info h1 {
+        width: 80%;
+        text-align: center;
+        margin: 50px auto;
+    }
+    .banner-info p {
+        display: none;
+    }
+    .banner-info button {
+        display: block;
+        margin: 50px auto;
+    }
+
+/* Vlad */
 
 
-    /* Vlad */
-
-
-    /* Yulia */
+/* Yulia */
     body {
         font-size: 16px;
     }
+    .main-gallery{
+        width: 100%;
+        height: auto;
+    }
+    .main-gallery--description {
+        width: 100%;
+        margin-bottom: 20px;
+        line-height: normal;
+    }
+    .main-gallery--description>p {
+        display: none;
+    }
+    .main-gallery--block-photos {
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+        grid-gap: 10px;
+    }
+    .main-gallery--block-photos>img {
+        width: 40vw;
+        height: 100%;
+        object-fit: cover;
+        object-position: center;
+    }
 
-
-    /* Vlad */
+/* Vlad */
     .footer {}
-
 }
