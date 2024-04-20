@@ -1,4 +1,4 @@
-@media screen and (max-width: 559px) {
+@media screen and (max-width: 649px) {
 /* Patricia */
     header {
         background-image: url("../assets/Patricia/Rectangle60.png");
@@ -7,12 +7,16 @@
         display: contents;
     }
     .banner-info h1 {
-        width: 80%;
+        width: 100%;
+        font-size: 2em;
         text-align: center;
-        margin: 50px auto;
+        margin: 25px auto;
     }
     .banner-info p {
         display: none;
+    }
+    .text-banner-info {
+        padding: 50px;
     }
     .banner-info button {
         display: block;
@@ -95,37 +99,58 @@
         object-position: center;
     }
 
+    .update-news--cards-container {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .main-update_news {
+        height: auto;
+        width: 100%;
+    }
+    .card-info {
+        padding: 20px;
+    }
+    .update-news--cards {
+        height: 80%;
+        width: 80%;
+        display: flex;
+        flex-direction: column;
+    }
+
 /* Vlad */
-footer{
-    width: 100%;
-    height: auto;
-}
-.footer-container{
-    display: flex;
-    flex-direction: column;
-}
-.footer-centered-title{
-    margin-top: 40px;
-    margin-left: 40px;
-    width: 80%;
-}
-.footer-categories{
-    margin-top: 10px;
-    margin-left: 40px;
-    justify-content: start;
-}
-.footer-follow-us,
-.footer-information{
-    margin-left: 40px;
-    margin-top: -60px;
-    justify-content: start;
-}
-.footer-social-media{
-    margin-top: 30px;
-}
-.footer-copyright{
-    margin-top: 200px;
-    margin-left: 0;
-    text-align: center;
-}
+    footer{
+        width: 100%;
+        height: auto;
+    }
+    .footer-container{
+        display: flex;
+        flex-direction: column;
+    }
+    .footer-centered-title{
+        margin-top: 40px;
+        margin-left: 40px;
+        width: 80%;
+    }
+    .footer-categories{
+        margin-top: 10px;
+        margin-left: 40px;
+        justify-content: start;
+    }
+    .footer-follow-us,
+    .footer-information{
+        margin-left: 40px;
+        margin-top: -60px;
+        justify-content: start;
+    }
+    .footer-social-media{
+        margin-top: 30px;
+    }
+    .footer-copyright{
+        margin-top: 200px;
+        margin-left: 0;
+        text-align: center;
+    }
 }
