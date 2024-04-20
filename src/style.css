@@ -283,131 +283,99 @@ button{
 
 /*------------------------------- Vlad ----------------------------------- */
 footer {
-    width: 100vw;
     height: 410px;
-    background-color: #0D0402;
-    margin-top: 140px;
+    width: 100vw;
+    background-color: black;
     display: flex;
+    flex-direction: column;
+    /*align-items: center;*/
 }
-
-.footer-banner-title {
+.footer-container{
+    display: flex;
+    height: 410px;
+    /*justify-content: space-between;*/
+    width: 100%;
+}
+.footer-centered-title{
+    display: flex;
+    flex-direction: column;
+    height: 200px;
+    margin-top: 75px;
+    width: 250px;
+    justify-content: space-between;
+    margin-left: 147px;
+}
+.footer-information{
+    display: flex;
+    flex-direction: column;
+    width: 165px;
+    height: 200px;
+    flex-shrink: 0;
+    margin-top: 75px;
+    justify-content: space-between;
+    margin-left: 129px;
+}
+.footer-categories{
+    display: flex;
+    flex-direction: column;
+    width: 165px;
+    height: 200px;
+    flex-shrink: 0;
+    margin-top: 75px;
+    justify-content: space-between;
+    margin-left: 43px;
+}
+.footer-follow-us{
+    display: flex;
+    flex-direction: column;
+    margin-top: 75px;
+    height: 150px;
+    margin-left: 129px;
+}
+.footer-categories-info-us{
+    font-family: "Open Sans", sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; /* 36px */
+}
+.footer-coffe{
     color: #FF4B32;
     font-family: "Josefin Sans", sans-serif;
     font-size: 24px;
     font-style: normal;
     font-weight: 700;
     line-height: 130%; /* 31.2px */
-    margin-top: 55px;
+    margin-top: -20px;
 }
-
-.footer-info-item-description{
-    width: 250px;
-    color: #FFF;
-
-    /* Body / Base */
-    font-family: "Open Sans", sans-serif;
-    font-size: 18px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 160%; /* 28.8px */
-    margin-left: 147px;
-    margin-top: 30px;
+.footer-coffe-logo{
+    margin-bottom: -10px;
 }
-
-.footer-info-number {
-    color: #FFF;
-    text-align: center;
-    font-family: "Open Sans", sans-serif;
-    font-size: 18px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 150%; /* 27px */
-    margin-top: 30px;
-}
-
-.footer-telephone {
-    margin-left: 75px;
+.footer-telephone-logo{
     margin-bottom: -2px;
-
 }
-
-.footer-coffe-logo {
-    margin-left: 147px;
-    margin-bottom: -5px;
-
+.footer-social-media{
+    margin-top: 46px;
 }
-
-.footer-categories-info {
-    color: #FFF;
-    font-family: "Open Sans", sans-serif;
-    font-size: 24px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 150%; /* 36px */
-
+.footer-copyright{
+    /*margin-top: -65px;*/
+    /*width: 40%;*/
+    margin-left: 448px;
+    margin-bottom: 30px;
 }
-
-.footer-Sections {
+footer p{
     color: #FFF;
     font-family: "Open Sans", sans-serif;
     font-size: 18px;
     font-style: normal;
     font-weight: 400;
     line-height: 150%; /* 27px */
-    margin-top: 20px;
-
 }
-
-.footer-categories {
-    width: 165px;
-    height: 177px;
-    flex-shrink: 0;
-    margin-left: 43px;
-    margin-top: 77px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-
-}
-
-.footer-information {
-    width: 165px;
-    height: 177px;
-    flex-shrink: 0;
-    display: flex;
-    flex-direction: column;
-    margin-top: 75px;
-    margin-left: 128px;
-    /*border: 2px solid gray;*/
-}
-
-.footer-h1-follow-us {
+footer h1{
     color: #FFF;
     font-family: "Open Sans", sans-serif;
     font-size: 24px;
     font-style: normal;
     font-weight: 400;
     line-height: 150%; /* 36px */
-    margin-top: 77px;
-    margin-left: 129px;
-}
-
-.footer-social-media {
-    width: 244px;
-    height: 38px;
-    flex-shrink: 0;
-    margin-top: 46px;
-    margin-left: 120px;
-}
-
-.footer-copyright {
-    flex-shrink: 0;
-    height: 94px;
-    margin-left: -815px;
-    margin-top: 315px;
-    display: flex;
-    justify-content: center;
-    color: white;
-    align-items: center;
-
 }
