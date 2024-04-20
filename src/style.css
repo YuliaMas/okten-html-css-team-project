@@ -48,7 +48,7 @@ h4 {
     line-height: 29px;
 }
 /*---------------------------Patricia-------------------------------------*/
-.header{
+header{
     background-image: url("../assets/patricia/image-header.png");
     background-size: cover;
     background-position: center;
@@ -128,8 +128,6 @@ button{
     justify-content: center;
     align-items: center;
     /*margin-bottom: 140px;*/
-
-
 }
 .best-offer-all{
     width: 80vw;
@@ -145,7 +143,6 @@ button{
     display: flex;
     flex-direction: column;
 }
-
 .best-offer-info-title {
     color: #000;
     font-family: "Josefin Sans", sans-serif;
@@ -156,7 +153,6 @@ button{
     letter-spacing: 6px;
     width: 590px;
 }
-
 .best-offer-info-item-description {
     color: #000;
 
@@ -169,7 +165,6 @@ button{
     margin-top: 20px;
     width: 506px;
 }
-
 .best-offer-items-1 {
     width: 1149px;
     height: 542px;
@@ -177,7 +172,6 @@ button{
     margin-top: 60px;
     justify-content: space-between;
 }
-
 .best-offer-block-photos-1 {
     width: 310px;
     height: 542px;
@@ -187,7 +181,6 @@ button{
     align-items: start;
     text-align: start;
 }
-
 .best-offer-block-photos-2 {
     width: 306px;
     height: 542px;
@@ -197,7 +190,6 @@ button{
     align-items: start;
     text-align: start;
 }
-
 .best-offer-block-photos-3 {
     width: 319px;
     height: 536px;
@@ -206,18 +198,15 @@ button{
     align-items: start;
     text-align: start;
 }
-
 .best-offer-1-img {
     width: 300px;
     height: 265px;
 }
-
 .best-offer-2-img {
     width: 319px;
     height: 251px;
     flex-shrink: 0;
 }
-
 .item-price-1 {
     color: #0C0D0C;
     font-family: "Josefin Sans", sans-serif;
@@ -228,7 +217,6 @@ button{
     margin-top: 35px;
 
 }
-
 .item-name-1 {
     color: #000;
 
@@ -253,7 +241,6 @@ button{
     margin-top: 15px;
     width: 257px;
 }
-
 .item-price-2 {
     color: #0C0D0C;
     font-family: "Josefin Sans", sans-serif;
@@ -265,7 +252,6 @@ button{
     margin-top: 42px;
 
 }
-
 .item-name-2 {
     color: #000;
 
@@ -278,7 +264,6 @@ button{
     margin-bottom: 18px;
     width: 298px;
 }
-
 .item-description-2 {
     color: #000;
     font-family: "Open Sans", sans-serif;
@@ -289,7 +274,6 @@ button{
     margin-top: -27px;
     width: 225px;
 }
-
 /*------------------------------- Yulia ----------------------------------- */
                         /* Main Our Gallery*/
 .main-gallery {
