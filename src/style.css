@@ -8,8 +8,7 @@ body {
     font-family: "Open Sans", sans-serif;
     font-optical-sizing: auto;
     font-style: normal;
-    font-variation-settings:
-            "wdth" 100;
+    font-variation-settings: "wdth" 100;
     font-size: 18px;
     font-weight: 400;
     line-height: 29px;
@@ -48,70 +47,56 @@ h4 {
     line-height: 29px;
 }
 /*---------------------------Patricia-------------------------------------*/
-header {
-    background-image: url('assets/patricia/image1.png');
+.header{
+    background-image: url("../assets/patricia/image-header.png");
     background-size: cover;
     background-position: center;
     height: 72vh;
-    width: 100vw;
 }
-nav {
-    height: 8vh;
+nav{
+    height: 12vh;
     width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
     padding: 10px;
-    font-size: 10px;
+    font-size: 20px;
 }
-.logo {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.logo{
+    height: 100%;
+    width: 10%;
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: space-around;
 }
-
-.navigation {
-    list-style-position: outside;
+.logo img{
+    height: 28px;
+    width: 25px;
+}
+.navigation{
+    height: 100%;
+    width: 50%;
     display: flex;
-    justify-content: space-between;
-    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-content: space-around;
+}
+.banner-info{
+    height: 60vh;
     width: 50%;
 }
-.navigation li {
-    list-style: none;
-}
-nav a {
-    text-decoration: none;
-}
-nav img {
-    height: 6vh;
-}
-.navigation li > .nav4, .nav5, .nav6, .nav7 {
+.text-banner-info{
+    display: block;
+    justify-content: space-evenly;
+    height: 400px;
+    padding: 64px 68px 64px 109px;
     color: white;
 }
-.banner-info {
-    color: #fff;
-    width: 40vw;
-    height: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: start;
-    flex-direction: column;
-    gap: 40px;
-    margin-left: 30px;
+.text-banner-info-text{
+    margin: 20px 0 20px 0;
 }
-
-.banner-info p {
-    color: #fff;
-    font-family: 'Josefin Sans', sans-serif;
-    font-optical-sizing: auto;
-    font-weight: 600;
-    font-style: normal;
-    font-size: 20px;
-    margin-top: 10px;
-}
-
-.banner-info button {
+button{
     background-color: #ff4b32;
     color: #fff;
     border-radius: 5px;
@@ -119,6 +104,8 @@ nav img {
     font-size: 10px;
     padding: 5px 15px;
 }
+
+
 /*------------------------------- Vlad ----------------------------------- */
 
 
