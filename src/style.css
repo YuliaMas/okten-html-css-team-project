@@ -63,16 +63,20 @@ nav{
     font-size: 20px;
 }
 .logo{
-    height: 100%;
-    width: 10%;
-    display:flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    align-content: space-around;
+    color: #FF4B32;
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 100%;
+    margin-top: 2px;
 }
 .logo img{
-    height: 28px;
+    height: 24px;
     width: 25px;
+}
+#logo-text{
+    color: #ff4b32;
 }
 .navigation{
     height: 100%;
@@ -81,6 +85,12 @@ nav{
     justify-content: space-around;
     flex-wrap: wrap;
     align-content: space-around;
+}
+#navigation-1{
+    color:#FF4B32;
+}
+#navigation-2,#navigation-3,#navigation-4,#navigation-5{
+    color: white;
 }
 .banner-info{
     height: 60vh;
@@ -100,9 +110,9 @@ button{
     background-color: #ff4b32;
     color: #fff;
     border-radius: 5px;
-    margin-top: 10px;
-    font-size: 10px;
-    padding: 5px 15px;
+    margin-top: 15px;
+    font-size: 20px;
+    padding: 10px 20px;
 }
 
 
