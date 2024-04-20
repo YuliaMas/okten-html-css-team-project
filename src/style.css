@@ -59,25 +59,26 @@ nav{
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: row ;
     padding: 10px;
     font-size: 20px;
 }
-.logo{
-    /*color: #FF4B32;*/
-    /*font-family: "Josefin Sans", sans-serif;*/
-    /*font-size: 24px;*/
-    /*font-style: normal;*/
-    /*font-weight: 700;*/
-    /*line-height: 100%;*/
-    /*margin-top: 2px;*/
+.footer-banner-title{
+    color: #FF4B32;
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 100%;
+    margin-bottom: 30px;
 }
-.logo img{
-    height: 30px;
-    width: 27px;
-}
-#logo-text{
-    color: #ff4b32;
-}
+/*.logo img{*/
+/*    height: 30px;*/
+/*    width: 27px;*/
+/*}*/
+/*#logo-text{*/
+/*    color: #ff4b32;*/
+/*}*/
 .navigation{
     height: 100%;
     width: 50%;
