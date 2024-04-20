@@ -48,12 +48,36 @@ h4 {
     line-height: 29px;
 }
 /*---------------------------Patricia-------------------------------------*/
-
+header {
+    height: 72vh;
+    width: 100vw;
+}
 
 /*------------------------------- Vlad ----------------------------------- */
-
+.best-offer {
+    width: 100vw;
+    height: 72vw;
+}
 
 /*------------------------------- Yulia ----------------------------------- */
+.main-gallery {
+    width: 100vw;
+    height: 100vh;
+    display: contents;
+}
 
+.main-follow {
+    width: 100vw;
+    height: 64vh;
+}
+
+.main-update_news {
+    width: 100vw;
+    height: 100vh;
+}
 
 /*------------------------------- Vlad ----------------------------------- */
+footer {
+    height: 40vw;
+    width: 100vh;
+}
