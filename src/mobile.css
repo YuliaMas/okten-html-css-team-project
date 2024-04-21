@@ -10,6 +10,16 @@
         display: flex;
         justify-content: center;
         align-items: center;
+
+    }
+    .header-coffee-logo{
+        margin-right: 10px;
+    }
+    .header-logo-text{
+        font-size: 24px;
+        display: flex;
+        align-self: flex-end;
+        margin-top: 30px;
     }
     .navigation{
         width: 100%;
