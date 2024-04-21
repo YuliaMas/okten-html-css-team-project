@@ -121,6 +121,9 @@
         flex-direction: column;
     }
     /*---------------------------- Vlad -----------------------------*/
+    .footer-container{
+        justify-content: space-evenly;
+    }
     .footer-information{
         margin-left: 0;
     }
