@@ -121,5 +121,27 @@
         flex-direction: column;
     }
     /*---------------------------- Vlad -----------------------------*/
-    .footer {}
+    .footer-information{
+        margin-left: 0;
+    }
+    .footer-centered-title{
+        margin-left: 20px;
+    }
+    .footer-categories{
+        margin-left: -50px;
+    }
+    .footer-follow-us{
+        margin-left: 10px;
+    }
+    footer p{
+        width: 80%;
+    }
+    .footer-copyright{
+        margin-left: 90px;
+    }
+    .footer-social-media{
+        height: 30px;
+        margin-left: -30px;
+    }
+
 }
