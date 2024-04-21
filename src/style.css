@@ -85,6 +85,7 @@ nav{
     justify-content: space-around;
     flex-wrap: wrap;
     align-content: space-around;
+    list-style-type: none;
 }
 #navigation-1{
     color:#FF4B32;

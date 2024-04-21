@@ -1,7 +1,10 @@
 @media screen and (max-width: 649px) {
 /* Patricia */
     header {
-        background-image: url("../assets/Patricia/Rectangle60.png");
+        background-image: url("../assets/Patricia/coffee.jpg");
+    }
+    .header-banner-title{
+        margin-left: -40px;
     }
     .banner-info {
         display: contents;
