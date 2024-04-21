@@ -1,17 +1,115 @@
-@media screen and (min-width: 560px) and (max-width: 1023px) {
-    /*--------------------------- Patricia-------------------------- */
-    header {
-        background-image: url("../assets/patricia/Rectangle60.png");
-    }
-
-    /*---------------------------- Vlad -----------------------------*/
-
-
-    /*--------------------------- Yulia -----------------------------*/
+@media screen and (min-width: 650px) and (max-width: 1023px) {
     body {
         font-size: 16px;
     }
+    /*--------------------------- Patricia-------------------------- */
+    header {
+        background-image: url("../assets/Patricia/coffee.jpg");
+        background-size: cover;
+        background-position: center;
+        height: 72vh;
+    }
+    .banner-info {
+        display: contents;
+    }
+    .banner-info h1 {
+        width: 80%;
+        text-align: center;
+        margin: 50px auto;
+    }
+    .banner-info button {
+        display: block;
+        margin: 50px auto;
+    }
+    .banner-info p {
+        text-align: center;
+        width: 50%;
+        margin: 0 auto;
+    }
+    .text-banner-info {
+        padding: 50px;
+    }
 
+    /*---------------------------- Vlad -----------------------------*/
+    .best-offer {
+        width: 100%;
+        height: 100%;
+        display: flex;
+    }
+    .best-offer-description {
+        width: 100%;
+        height: 100%;
+        text-align: center;
+        display: flex;
+        justify-content: start;
+        align-items: start;
+    }
+    .best-offer-items-1{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .best-offer-block-photos-1,
+    .best-offer-block-photos-2,
+    .best-offer-block-photos-3 {
+        width: auto;
+        height: auto;
+    }
+    /*.item-name-2,*/
+    /*.item-description-1,*/
+    /*.item-description-2{*/
+    /*    width: 100%;*/
+    /*}*/
+
+    /*--------------------------- Yulia -----------------------------*/
+    .main-gallery {
+        margin: 50px auto;
+        padding: 50px 0;
+        width: 100vw;
+        height: auto;
+    }
+    .main-gallery--description {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .main-gallery--description>p {
+        display: inline-block;
+    }
+    .main-gallery--block-photos {
+        width: 100%;
+        display: grid;
+        grid-template-columns: 1fr 1fr ;
+        grid-template-rows: 1fr 1fr 1fr ;
+        grid-gap: 10px;
+    }
+    .main-gallery--block-photos>img {
+        width: 40vw;
+        height: 100%;
+        object-fit: cover;
+        display: block;
+        object-position: center;
+    }
+
+    .update-news--cards-container {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .main-update_news {
+        height: auto;
+        width: 100%;
+    }
+    .update-news--cards {
+        height: 60%;
+        width: 60%;
+        display: flex;
+        flex-direction: column;
+    }
     /*---------------------------- Vlad -----------------------------*/
     .footer {}
 }

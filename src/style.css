@@ -8,7 +8,8 @@ body {
     font-family: "Open Sans", sans-serif;
     font-optical-sizing: auto;
     font-style: normal;
-    font-variation-settings: "wdth" 100;
+    font-variation-settings:
+            "wdth" 100;
     font-size: 18px;
     font-weight: 400;
     line-height: 29px;
@@ -47,11 +48,12 @@ h4 {
     line-height: 29px;
 }
 /*---------------------------Patricia-------------------------------------*/
-.header{
+header{
     background-image: url("../assets/patricia/image-header.png");
     background-size: cover;
     background-position: center;
     height: 72vh;
+    width: 100vw;
 }
 nav{
     height: 12vh;
@@ -83,6 +85,7 @@ nav{
     justify-content: space-around;
     flex-wrap: wrap;
     align-content: space-around;
+    list-style-type: none;
 }
 #navigation-1{
     color:#FF4B32;
@@ -107,6 +110,12 @@ nav{
 .text-banner-info-text{
     margin: 20px 0 20px 0;
     width: 506px;
+    color: #FFF;
+    font-family: "Open Sans", sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 160%; /* 32px */
 }
 button{
     background-color: #ff4b32;
@@ -119,9 +128,432 @@ button{
 
 
 /*------------------------------- Vlad ----------------------------------- */
+.best-offer {
+    width: 100%;
+    height: 737px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 140px;
+    justify-content: center;
+    align-items: center;
+    /*margin-bottom: 140px;*/
+}
+.best-offer-all{
+    width: 80vw;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+}
+.best-offer-description {
+    width: 1149px;
+    height: 134px;
+    display: flex;
+    flex-direction: column;
+}
+.best-offer-info-title {
+    color: #000;
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 43px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 130%; /* 55.9px */
+    letter-spacing: 6px;
+    width: 590px;
+}
+.best-offer-info-item-description {
+    color: #000;
 
+    /* Body / Base */
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 160%; /* 28.8px */
+    margin-top: 20px;
+    width: 506px;
+}
+.best-offer-items-1 {
+    width: 1149px;
+    height: 542px;
+    display: flex;
+    margin-top: 60px;
+    justify-content: space-between;
+}
+.best-offer-block-photos-1 {
+    width: 310px;
+    height: 542px;
+    flex-shrink: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    text-align: start;
+}
+.best-offer-block-photos-2 {
+    width: 306px;
+    height: 542px;
+    flex-shrink: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    text-align: start;
+}
+.best-offer-block-photos-3 {
+    width: 319px;
+    height: 536px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    text-align: start;
+}
+.best-offer-1-img {
+    width: 300px;
+    height: 265px;
+}
+.best-offer-2-img {
+    width: 319px;
+    height: 251px;
+    flex-shrink: 0;
+}
+.item-price-1 {
+    color: #0C0D0C;
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 150%; /* 36px */
+    margin-top: 35px;
 
+}
+.item-name-1 {
+    color: #000;
+
+    /* Heading / Base */
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 130%; /* 41.6px */
+    margin-top: 10px;
+}
+
+/*---------------------------Vlad-------Best Offer-------------------------------*/
+
+.item-description-1 {
+    color: #000;
+    font-family: "Open Sans", sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 160%; /* 25.6px */
+    margin-top: 15px;
+    width: 257px;
+}
+.item-price-2 {
+    color: #0C0D0C;
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 150%; /* 36px */
+    width: 59px;
+    margin-top: 42px;
+
+}
+.item-name-2 {
+    color: #000;
+
+    /* Heading / Base */
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 130%; /* 41.6px */
+    margin-bottom: 18px;
+    width: 298px;
+}
+.item-description-2 {
+    color: #000;
+    font-family: "Open Sans", sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 160%; /* 25.6px */
+    margin-top: -27px;
+    width: 225px;
+}
 /*------------------------------- Yulia ----------------------------------- */
-
-
+                        /* Main Our Gallery*/
+.main-gallery {
+    width: 100vw;
+    height: 100vh;
+    display: contents;
+}
+.main-gallery--container {
+    width: 80vw;
+    /*height: 60%;*/
+    margin: 0  auto;
+    padding-top: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.main-gallery--description {
+    width: 60%;
+    margin-bottom: 40px ;
+    text-align: center;
+}
+.main-gallery--description>h2 {
+    font-weight: 600;
+}
+.main-gallery--description>p {
+    padding: 20px;
+}
+.main-gallery--block {
+    display: grid;
+    height: 60%;
+}
+.main-gallery--block-photos {
+    width: 50%;
+    height: 40%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-gap: 30px;
+}
+.main-gallery button {
+    color: #FF4B32;
+    border: none;
+    background: unset;
+    margin-bottom: 20px;
+    text-align: center;
+    padding-bottom: 20px;
+    cursor: pointer;
+}
+.main-gallery button:hover {
+    color: rgba(103, 63, 52, 0.77);
+    border: none;
+    background: #fff;
+    cursor: wait;
+}
+                            /*Main Follow*/
+.main-follow {
+    width: 100vw;
+    height: 64vh;
+    margin: 50px 0;
+    color: #ffffff;
+    background-image: url("../assets/yulia/FollowUs.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-width: 100%;
+}
+.main-follow>img {
+    width: 100%;
+}
+.main-follow--block {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.main-follow--block>h2 {
+    text-align: center;
+}
+.main-follow--block>a {
+    color: #FF4B32;
+    text-decoration: none;
+    cursor: pointer;
+}
+.main-follow--contacts {
+    height: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.main-follow--social_links a {
+    padding: 10px;
+    cursor: pointer;
+}
+.main-follow--contacts img {
+    vertical-align: sub;
+    padding-bottom: 2px;
+    padding-right: 6px;
+    cursor: pointer;
+}
+.main-follow--contacts a {
+    color: #fff;
+}
+                            /* Update News */
+.main-update_news {
+    width: 100vw;
+    height: 100vh;
+}
+.main-update_news-container {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+}
+.main-update_news-container>h2 {
+    color: #000;
+    text-align: center;
+    line-height: 130%;
+    margin-bottom: 20px;
+}
+.main-update_news-container>p {
+    color: #000;
+    text-align: center;
+    font-size: 1em;
+    line-height: 160%;
+    margin-bottom: 60px;
+    width: 47%;
+}
+.update-news--cards-container {
+    display: flex;
+    justify-content: center;
+    width: 80vw;
+    align-items: flex-start;
+    gap: 30px;
+}
+.update-news--cards {
+    height: 54vh;
+    width: 25vw;
+    border-radius: 20px;
+    background: #fff;
+    box-shadow: 40px 15px 136px 0 rgba(0, 0, 0, 0.2);
+}
+.update-news--cards img {
+    height: 56%;
+    width: 100%;
+}
+.card-info {
+    padding: 10px 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    box-sizing: content-box;
+    width: 90%;
+    height: 35%;
+}
+.card-info a, p {
+    font-size: 0.9em;
+    line-height: 26px;
+}
+.card-info p {
+    padding-right: 20px;
+}
+.card-info>a {
+    margin-top: 10px;
+    color: #FF4B32;
+    font-weight: 700;
+    text-decoration: none;
+    cursor: pointer;
+}
 /*------------------------------- Vlad ----------------------------------- */
+footer {
+    height: 410px;
+    width: 100vw;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    /*align-items: center;*/
+}
+.footer-container{
+    display: flex;
+    height: 410px;
+    /*justify-content: space-between;*/
+    width: 100%;
+}
+.footer-centered-title{
+    display: flex;
+    flex-direction: column;
+    height: 200px;
+    margin-top: 75px;
+    width: 250px;
+    justify-content: space-between;
+    margin-left: 147px;
+}
+.footer-information{
+    display: flex;
+    flex-direction: column;
+    width: 165px;
+    height: 200px;
+    flex-shrink: 0;
+    margin-top: 75px;
+    justify-content: space-between;
+    margin-left: 129px;
+}
+.footer-categories{
+    display: flex;
+    flex-direction: column;
+    width: 165px;
+    height: 200px;
+    flex-shrink: 0;
+    margin-top: 75px;
+    justify-content: space-between;
+    margin-left: 43px;
+}
+.footer-follow-us{
+    display: flex;
+    flex-direction: column;
+    margin-top: 75px;
+    height: 150px;
+    margin-left: 129px;
+}
+.footer-categories-info-us{
+    font-family: "Open Sans", sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; /* 36px */
+}
+.footer-coffe{
+    color: #FF4B32;
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 130%; /* 31.2px */
+    margin-top: -20px;
+}
+.footer-coffe-logo{
+    margin-bottom: -10px;
+}
+.footer-telephone-logo{
+    margin-bottom: -2px;
+}
+.footer-social-media{
+    margin-top: 46px;
+}
+.footer-copyright{
+    /*margin-top: -65px;*/
+    /*width: 40%;*/
+    margin-left: 448px;
+    margin-bottom: 30px;
+}
+footer p{
+    color: #FFF;
+    font-family: "Open Sans", sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; /* 27px */
+}
+footer h1{
+    color: #FFF;
+    font-family: "Open Sans", sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; /* 36px */
+}
