@@ -293,7 +293,7 @@ button{
 .main-gallery--container {
     width: 80vw;
     /*height: 60%;*/
-    margin: 0  auto;
+    margin: 0  auto 100px;
     padding-top: 100px;
     display: flex;
     flex-direction: column;
@@ -323,8 +323,10 @@ button{
     grid-template-rows: 1fr 1fr;
     grid-gap: 30px;
 }
-.main-gallery button {
+.main-gallery .gallery-btn {
     color: #FF4B32;
+    margin-top: 0;
+    padding-top: 0;
     border: none;
     background: unset;
     margin-bottom: 20px;
@@ -332,7 +334,7 @@ button{
     padding-bottom: 20px;
     cursor: pointer;
 }
-.main-gallery button:hover {
+.main-gallery .gallery-btn:hover {
     color: rgba(103, 63, 52, 0.77);
     border: none;
     background: #fff;
