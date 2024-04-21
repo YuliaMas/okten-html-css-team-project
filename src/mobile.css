@@ -3,8 +3,18 @@
     header {
         background-image: url("../assets/Patricia/coffee.jpg");
     }
+    nav{
+        display: block;
+    }
     .header-banner-title{
-        margin-left: -40px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .navigation{
+        width: 100%;
+        display: flex;
+        flex-wrap: nowrap;
     }
     .banner-info {
         display: contents;
