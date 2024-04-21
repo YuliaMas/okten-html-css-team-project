@@ -1,0 +1,29 @@
+@media  screen and (min-width: 1700px) {
+    body {
+        font-size: 20px;
+        line-height: 36px;
+    }
+    .main-update_news {
+        margin: 100px 0;
+    }
+    .update-news--cards {
+        height: 80vh;
+    }
+    .card-info p {
+        line-height: 40px;
+    }
+    .update-news--cards-container {
+        display: flex;
+        justify-content: space-between;
+    }
+    .footer-container {
+        justify-content: space-evenly;
+    }
+    .footer-copyright {
+        text-align: center;
+        margin-left: 0;
+    }
+    .footer-centered-title {
+        margin-left: 0;
+    }
+}

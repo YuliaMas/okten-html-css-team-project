@@ -1,36 +1,179 @@
-@media screen and (max-width: 559px) {
-    /* Patricia */
+@media screen and (max-width: 649px) {
+/* Patricia */
     header {
-        background-image: url("../assets/patricia/Rectangle60.png");
+        background-image: url("../assets/patricia/coffee.jpg");
+    }
+    nav{
+        display: block;
+    }
+    .header-banner-title{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+    }
+    .header-coffee-logo{
+        margin-right: 10px;
+    }
+    .header-logo-text{
+        font-size: 24px;
+        display: flex;
+        align-self: flex-end;
+        margin-top: 30px;
+    }
+    .navigation{
+        width: 100%;
+        display: flex;
+        flex-wrap: nowrap;
     }
     .banner-info {
         display: contents;
     }
     .banner-info h1 {
-        width: 80%;
+        width: 100%;
+        font-size: 2em;
         text-align: center;
-        margin: 50px auto;
+        margin: 25px auto;
+    }
+    .banner-info p {
+        display: none;
+    }
+    .text-banner-info {
+        padding: 50px;
     }
     .banner-info button {
         display: block;
         margin: 50px auto;
     }
-    .banner-info p {
+
+/* Vlad */
+    .best-offer {
+        width: 100%;
+        height: 100%;
+        /*margin-bottom: 140px;*/
+    }
+    .best-offer-description {
+        width: 100%;
+        height: 100%;
+        margin-left: 0;
+    }
+    .best-offer-info-title {
+        width: 100%;
         text-align: center;
-        width: 50%;
-        margin: 0 auto;
+    }
+    .best-offer-info-item-description {
+        width: 100%;
+        text-align: center;
+    }
+    .best-offer-items-1{
+        width: 100%;
+        height: 1600px;
+        display: flex;
+        flex-direction: column;
+        margin-top: 60px;
+        margin-left: 0;
+    }
+    .best-offer-block-photos-1{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .best-offer-block-photos-2 {
+        margin-left: 0;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .best-offer-block-photos-3 {
+        margin-left: 0;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
 
-    /* Vlad */
-
-
-    /* Yulia */
+/* Yulia */
     body {
         font-size: 16px;
     }
+    .main-gallery{
+        width: 100%;
+        height: auto;
+    }
+    .main-gallery--description {
+        width: 100%;
+        margin-bottom: 20px;
+        line-height: normal;
+    }
+    .main-gallery--description>p {
+        display: none;
+    }
+    .main-gallery--block-photos {
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+        grid-gap: 10px;
+    }
+    .main-gallery--block-photos>img {
+        width: 40vw;
+        height: 100%;
+        object-fit: cover;
+        object-position: center;
+    }
 
+    .update-news--cards-container {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .main-update_news {
+        height: auto;
+        width: 100%;
+    }
+    .card-info {
+        padding: 20px;
+    }
+    .update-news--cards {
+        height: 80%;
+        width: 80%;
+        display: flex;
+        flex-direction: column;
+    }
 
-    /* Vlad */
-    .footer {}
-
+/* Vlad */
+    footer{
+        width: 100%;
+        height: auto;
+    }
+    .footer-container{
+        display: flex;
+        flex-direction: column;
+    }
+    .footer-centered-title{
+        margin-top: 40px;
+        margin-left: 40px;
+        width: 80%;
+    }
+    .footer-categories{
+        margin-top: 10px;
+        margin-left: 40px;
+        justify-content: start;
+    }
+    .footer-follow-us,
+    .footer-information{
+        margin-left: 40px;
+        margin-top: -60px;
+        justify-content: start;
+    }
+    .footer-social-media{
+        margin-top: 30px;
+    }
+    .footer-copyright{
+        margin-top: 200px;
+        margin-left: 0;
+        text-align: center;
+    }
 }
