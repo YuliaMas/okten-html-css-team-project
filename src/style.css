@@ -52,7 +52,7 @@ header{
     background-image: url("../assets/patricia/image-header.png");
     background-size: cover;
     background-position: center;
-    height: 72vh;
+    height: 729px;
     width: 100vw;
 }
 nav{
@@ -85,6 +85,7 @@ nav{
     justify-content: space-around;
     flex-wrap: wrap;
     align-content: space-around;
+    list-style-type: none;
 }
 #navigation-1{
     color:#FF4B32;

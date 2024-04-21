@@ -4,10 +4,20 @@
     }
     /*--------------------------- Patricia-------------------------- */
     header {
-        background-image: url("../assets/Patricia/Rectangle60.png");
+        background-image: url("../assets/Patricia/coffee.jpg");
         background-size: cover;
         background-position: center;
-        height: 72vh;
+        /*height: 72vh;*/
+    }
+    .header-banner-title{
+        margin-right: 20px;
+    }
+    .navigation{
+        margin-right: 5px;
+        width: 400px;
+    }
+    #navigation-1,#navigation-2,#navigation-3,#navigation-4,#navigation-5{
+        margin-right: 10px;
     }
     .banner-info {
         display: contents;

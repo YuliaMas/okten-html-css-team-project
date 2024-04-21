@@ -1,7 +1,30 @@
 @media screen and (max-width: 649px) {
 /* Patricia */
     header {
-        background-image: url("../assets/Patricia/Rectangle60.png");
+        background-image: url("../assets/Patricia/coffee.jpg");
+    }
+    nav{
+        display: block;
+    }
+    .header-banner-title{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+    }
+    .header-coffee-logo{
+        margin-right: 10px;
+    }
+    .header-logo-text{
+        font-size: 24px;
+        display: flex;
+        align-self: flex-end;
+        margin-top: 30px;
+    }
+    .navigation{
+        width: 100%;
+        display: flex;
+        flex-wrap: nowrap;
     }
     .banner-info {
         display: contents;
