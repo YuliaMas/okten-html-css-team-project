@@ -378,10 +378,6 @@ button{
     justify-content: space-between;
     align-items: center;
 }
-.main-follow--social_links a {
-    padding: 10px;
-    cursor: pointer;
-}
 .main-follow--contacts img {
     vertical-align: sub;
     padding-bottom: 2px;
@@ -391,6 +387,13 @@ button{
 .main-follow--contacts a {
     color: #fff;
     font-size: 1.33em;
+}
+.main-follow--social_link>img {
+    padding: 0;
+}
+.main-follow--social_links a {
+    padding: 20px;
+    cursor: pointer;
 }
                             /* Update News */
 .main-update_news {
