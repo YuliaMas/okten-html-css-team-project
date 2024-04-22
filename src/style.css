@@ -82,7 +82,7 @@ nav{
 }
 .navigation{
     height: 100%;
-    width: 50%;
+    width: 40%;
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
@@ -103,7 +103,7 @@ nav{
     display: block;
     justify-content: space-evenly;
     height: 400px;
-    padding: 64px 68px 64px 109px;
+    padding: 64px 68px 64px 145px;
     color: white;
 }
 .text-banner-info-tittle{
