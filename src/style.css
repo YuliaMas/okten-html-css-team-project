@@ -81,7 +81,7 @@ nav{
 }
 .navigation{
     height: 100%;
-    width: 47%;
+    width: 44%;
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
@@ -93,6 +93,7 @@ nav{
 }
 #navigation-2,#navigation-3,#navigation-4,#navigation-5{
     color: white;
+    opacity: 60%;
 }
 .banner-info{
     height: 60vh;
@@ -117,6 +118,7 @@ nav{
     font-style: normal;
     font-weight: 600;
     line-height: 160%; /* 32px */
+    opacity: 80%;
 }
 button{
     background-color: #ff4b32;
@@ -167,7 +169,7 @@ button{
 }
 .best-offer-info-item-description {
     color: #000;
-
+    opacity: 70%;
     /* Body / Base */
     font-family: "Josefin Sans", sans-serif;
     font-size: 18px;
@@ -252,6 +254,7 @@ button{
     line-height: 160%; /* 25.6px */
     margin-top: 15px;
     width: 257px;
+    opacity: 60%;
 }
 .item-price-2 {
     color: #0C0D0C;
@@ -313,6 +316,7 @@ button{
 }
 .main-gallery--description>p {
     padding: 20px;
+    opacity: 70%;
 }
 .main-gallery--block {
     display: grid;
@@ -427,6 +431,7 @@ button{
     line-height: 160%;
     margin-bottom: 60px;
     width: 47%;
+    opacity: 70%;
 }
 .update-news--cards-container {
     display: flex;
@@ -464,6 +469,7 @@ button{
     padding-right: 20px;
     font-size: 0.9em;
     line-height: 26px;
+    opacity: 70%;
 }
 .card-info>a {
     margin-top: 10px;
