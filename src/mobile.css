@@ -121,7 +121,9 @@
         object-fit: cover;
         object-position: center;
     }
-
+    .main-follow--social_links a {
+        padding: 2px;
+    }
     .update-news--cards-container {
         width: 100%;
         display: flex;

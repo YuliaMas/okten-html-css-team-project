@@ -3,6 +3,21 @@
         font-size: 20px;
         line-height: 36px;
     }
+    .text-banner-info-tittle {
+        width: 42vw;
+    }
+    .text-banner-info {
+          display: flex;
+          flex-direction: column;
+          justify-content: space-evenly;
+          align-items: baseline;
+          height: 40vh;
+          width: 80%;
+    }
+    /*.banner-info {*/
+    /*    height: 60vh;*/
+    /*    width: 50vw;*/
+    /*}*/
     .main-update_news {
         margin: 100px 0;
     }
