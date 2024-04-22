@@ -75,16 +75,15 @@ nav{
     font-weight: 700;
     line-height: 100%;
     margin-bottom: 20px;
-    margin-right: 20px;
 }
 .header-coffee-logo{
     margin-bottom: -10px;
 }
 .navigation{
     height: 100%;
-    width: 50%;
+    width: 47%;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
     flex-wrap: wrap;
     align-content: space-around;
     list-style-type: none;
@@ -103,7 +102,7 @@ nav{
     display: block;
     justify-content: space-evenly;
     height: 400px;
-    padding: 64px 68px 64px 109px;
+    padding: 64px 68px 64px 145px;
     color: white;
 }
 .text-banner-info-tittle{
